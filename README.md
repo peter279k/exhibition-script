@@ -4,7 +4,7 @@
 
 - This project is just for the people who want to fetch the Taiwanese culture info quickly.
 - It makes project easy because I don't want to make this service complicated at this time.
-- The project included ```fetch.php```, ```subscribe.php```, ```mail_list.txt```, ```mailjet_key.ini``` and ```template``` folder.
+- The project included ```fetch.php```, ```Subscriber.php```, ```MailClient.php```, ```mail_list.txt```, ```mailjet_key.ini``` and ```template``` folder.
 
 # Usage
 
