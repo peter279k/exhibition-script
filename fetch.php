@@ -62,8 +62,8 @@ if ($err) {
         $content = str_replace('{description}', $description, $content);
         $content = str_replace('{start-date}', $info[$index]['startDate'], $content);
         $content = str_replace('{end-date}', $info[$index]['endDate'], $content);
-        $content = str_replace('{location}', isset($info[$index]['location']) ? $info[$index]['location']:'unavailable', $content);
-        $content = str_replace('{locationName}', isset($info[$index]['locationName']) ? $info[$index]['location']:'unavailable', $content);
+        $content = str_replace('{location}', isset($info[$index]['showInfo'][0]['location']) ? $info[$index]['showInfo'][0]['location']:'unavailable', $content);
+        $content = str_replace('{locationName}', isset($info[$index]['showInfo'][0]['locationName']) ? $info[$index]['showInfo'][0]['locationName']:'unavailable', $content);
         $currContent .= $content;
         $content = '';
     }
