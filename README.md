@@ -10,11 +10,21 @@
 
 ## To fetch the exhibition informations
 
+- clone the repo
+```bash
+git clone https://github.com/peter279k/exhibition-script
+```
+- install the dependencies via Composer
+```bash
+composer install
+```
+- replace the mailjet public and private key in ```mailjet_key.ini```.
+- execute the fetch.php
 ```php
 php fetch.php
 ```
 
-## To subscribe and send the newsletter manaually
+## To subscribe and send the newsletter manually
 
 - add the received e-mail in ```mail_list.txt```.
-- set the schedule time to execute the ```fetch.php``` and send e-mail newsletter.The schedule time you set is up to you.
+- set the scheduled time to execute the ```fetch.php``` and send e-mail newsletter.The schedule time you set is up to you.
